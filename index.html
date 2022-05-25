@@ -8,16 +8,21 @@
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/css/all.css"></script>
     <link rel="stylesheet" href="./css/style.css">
     <title>Currículo Alan</title>
+    <style>
+      a {
+        text-decoration: none;
+        color:  #FFF;
+      }
+      a:hover {
+        color: #DCDCDC;
+        
+      }
+    </style>
 </head>
 
 <body>
   <header>
     <nav class="navbar" role="navigation" aria-label="main navigation">
-      <div class="navbar-brand">
-        <a class="navbar-item" href="index.html">
-          <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
-        </a>
-      </div>
     
       <div id="navbarBasicExample" class="navbar-menu is-active">
         <div class="navbar-start">
@@ -25,9 +30,22 @@
             Inicio
           </a>
     
-          <a class="navbar-item" href="contact.html">
-            Contato
+          <a class="navbar-item" href="#about-me">
+            Sobre mim
           </a>
+
+          <a class="navbar-item" href="#goal">
+            Objetivo
+          </a>
+
+          <a class="navbar-item" href="#graduation">
+            Graduação
+          </a>
+
+          <a class="navbar-item" href="#formation">
+            Formação
+          </a>
+
         </div>
       </div>
     </nav> 
@@ -39,27 +57,27 @@
         <div class="column">
           <div class="card">
             <div class="card-image">
-              <figure class="image is-4by3">
-                <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+              <figure class="image is-4by4">
+                <img src="/photo-alan.jpg" alt="Placeholder image">
               </figure>
             </div>
             <div class="card-content">
               <div class="media">
                 <div class="media-content">
-                  <p class="title is-4">John Smith</p>
+                  <p class="title is-4">Alan da Silva Cajé</p>
                   <span class="tag is-dark is-medium">Javascript Full Stack Developer</span>
                 </div>
               </div>
           
               <div class="content">
-                <p>(19) 00000-0000</p>
-                <p>a@mail.com</p>
+                <p>(11) 9 94353-9712</p>
+                <p>alan.scaje@gmail.com</p>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="column is-9">
+        <div id="about-me" class="column is-9">
           <div class="card">
             <header class="card-header">
               <p class="card-header-title">
@@ -68,66 +86,101 @@
             </header>
             <div class="card-content">
               <div class="content">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis quisquam pariatur unde dolore sequi. Culpa, totam mollitia dolorum voluptatum, itaque incidunt quisquam, ducimus sapiente qui laudantium corporis. Atque dignissimos inventore iste unde minima aperiam facilis repudiandae modi, molestias quasi, fuga odio vero eos incidunt beatae quo, quam consectetur laudantium! Quaerat!</p>
+                <p>Sou um desenvolvedor de Sistemas Web,  tendo como foco principal a linguagem Javascript/ Typescripe. Faço construções de APIs utilizando Node Js e MongoDB. Atualmente estou cursando faculdade de Analise e Desenvolvimento de Sistemas.
+                </p>
               </div>
             </div>
           </div>
 
-          <div class="card">
+
+
+          <div id="goal" class="card">
             <header class="card-header">
               <p class="card-header-title">
-                Experiências
+                Objetivo
               </p>
             </header>
-
             <div class="card-content">
               <div class="content">
-                <div class="columns">
-                  <div class="column">
-                    <figure class="image is-128x128">
-                      <img class="is-rounded" src="https://bulma.io/images/placeholders/128x128.png">
-                    </figure>
-                  </div>
-
-                  <div class="column is-9">
-                    <p class="title is-5">Javascript Developer <span class="tag is-dark">Empresa X</span></p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor sed assumenda officiis laboriosam tenetur ducimus mollitia magnam nemo. Magnam provident asperiores ex quia. Tempora, vero! Nam recusandae est maiores non?</p>
-                  </div>
-                </div>
-
-                <div class="columns">
-                  <div class="column">
-                    <figure class="image is-128x128">
-                      <img class="is-rounded" src="https://bulma.io/images/placeholders/128x128.png">
-                    </figure>
-                  </div>
-
-                  <div class="column is-9">
-                    <p class="title is-5">Javascript Developer <span class="tag is-dark">Empresa Y</span></p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt quo quos expedita possimus tempore fuga blanditiis iure aliquid. Voluptatibus labore id nostrum eius. Quam dolorem provident ea obcaecati necessitatibus! Quae?</p>
-                  </div>
-                </div>
+                <p>Estou à procura de estagio na area de Desenvolvimento Web e Mobile.</p>
               </div>
             </div>
           </div>
 
-          <div class="card">
+
+
+          <div id="graduation" class="card">
+            <header class="card-header">
+              <p class="card-header-title">
+                Graduação
+              </p>
+            </header>
+            <div class="card-content">
+              <div class="content">
+                <p><span class="tag is-dark">FACULDADE UNINOVE</span> - Conclusão 2024 - Status - Cursando (1º semestre)</p>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+          <div id="formation" class="card">
             <header class="card-header">
               <p class="card-header-title">
                 Formação
               </p>
             </header>
             <div class="card-content">
-              <div class="content">
-                <p class="title is-5">Javascript Full Stack em 8 Semanas</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore doloremque magnam suscipit, obcaecati necessitatibus deserunt earum officia odio esse perspiciatis exercitationem fugiat! Molestiae unde corporis id at, dicta explicabo impedit?</p>
+              <div class="columns">
+
+                <div class="column">
+                  <figure class="image is-128x128">
+                    <img class="is-rounded" src="https://logospng.org/download/javascript/logo-javascript-icon-512.png">
+                  </figure>
+                </div>
+
+                <div class="column is-9">
+                  <p class="title is-5">JAVASCRIPT <span class="tag is-dark"><a href="/Alan-da-Silva-Javascript-40-Horas-Certificado-Curso-em-Video.pdf" target="_blank">Diploma</a></span></p>
+                  <p>Utilização de recursos da linguagem como manipulação de array, objetos, criação de funções e classes.</p>
+                </div>
               </div>
-            </div>
-            <div class="card-content">
-              <div class="content">
-                <p class="title is-5">HTML + CSS </p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore doloremque magnam suscipit, obcaecati necessitatibus deserunt earum officia odio esse perspiciatis exercitationem fugiat! Molestiae unde corporis id at, dicta explicabo impedit?</p>
+
+
+              <div class="columns">
+                <div class="column">
+                  <figure class="image is-128x128">
+                    <img class="is-rounded" src="https://divbyte.com/wp-content/uploads/2019/02/html-css.png">
+                  </figure>
+                </div>
+
+
+                <div class="column is-9">
+                  <p class="title is-5">HTML e CSS <span class="tag is-dark"><a href="Alan-da-Silva-HTML5-40-Horas-Certificado-Curso-em-Video.pdf" target="_blank">Diploma</a></span></p>
+                  <p>Criação de sites responsivos com Html5 e Css3, utilizando recursos como Flexbox e Grid na composição de estilo e alinhamento.</p>
+                </div>
               </div>
+
+
+
+
+
+              <div class="columns">
+                <div class="column">
+                  <figure class="image is-128x128">
+                    <img class="is-rounded" src="https://cdn.freebiesupply.com/logos/large/2x/nodejs-1-logo-png-transparent.png">
+                  </figure>
+                </div>
+
+                <div class="column is-9">
+                  <p class="title is-5">NODE JS <span class="tag is-dark"><a href="Alan-da-Silva-node -6-Horas-Certificado.pdf" target="_blank">Diploma</a></span></p>
+                  <p>Criação de API utilizando Noje Js, Express, Socket Io e Mongo DB como banco não relacional.</p>
+                </div>
+              </div>
+              
+              
+              
             </div>
           </div>
 
